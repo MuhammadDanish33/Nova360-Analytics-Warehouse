@@ -6,7 +6,7 @@
 
 ## What is this?
 
-NovaGroup is not a simple transactional database. It is a carefully engineered **enterprise analytical platform** that models three major business domains — **Banking**, **Retail**, and **Energy** — under one unified architecture.
+NovaGroup is not a simple transactional database. It is a carefully engineered **enterprise analytical platform** that models three major business domains **Banking**, **Retail**, and **Energy** under one unified architecture.
 
 At its heart sits a **shared Common schema**. This shared foundation allows the organisation to answer questions that span departments:
 
@@ -93,7 +93,7 @@ This is the most sophisticated part of the model. It is clearly designed for a m
 | FactAccountNetwork      | Graph-ready relationships between accounts (Sender / Receiver / SharedDevice) |
 
 **Design insight worth noting:**  
-`FactRiskFeature` has a unique constraint on `(AccountID, FeatureDateKey)`. This is a deliberate daily feature store — perfect for training machine-learning models without having to re-aggregate every time.
+`FactRiskFeature` has a unique constraint on `(AccountID, FeatureDateKey)`. This is a deliberate daily feature store perfect for training machine-learning models without having to re-aggregate every time.
 
 ---
 
