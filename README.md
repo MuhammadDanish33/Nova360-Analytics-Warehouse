@@ -179,7 +179,7 @@ Because of the shared Customer and Date/Time dimensions, the platform supports b
 
 ---
 
-## Design Quality Signals (What a Hiring Manager Should Notice)
+## Design Quality Signals 
 
 1. **Business rules live in the database**  
    Almost every important constraint is declared with `CHECK` constraints rather than left to application code. This is mature engineering.
