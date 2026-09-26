@@ -226,4 +226,4 @@ That last point is what turns three separate data silos into a genuine enterpris
 
 ---
 
-*This README was written after a full structural analysis of the schema — every table, every constraint, and every relationship was examined to understand not just what the data contains, but how the business is intended to use it.*
+*This README was written after a full structural analysis of the schema every table, every constraint, and every relationship was examined to understand not just what the data contains, but how the business is intended to use it.*
